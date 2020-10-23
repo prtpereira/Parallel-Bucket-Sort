@@ -8,4 +8,4 @@
 
 - Optimization Bucket Sort using an hybrid approach of multithreading and multiprocessing
 
-* Used OpenMP for multithreading and MPI for multiprocessing
+** Used OpenMP for multithreading and MPI for multiprocessing
