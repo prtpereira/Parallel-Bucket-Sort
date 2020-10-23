@@ -1,0 +1,72 @@
+1maquina
+
+[pg38923@compute-641-12 fase2]$ mpirun -np 1 -mca btl self,sm,tcp bucketMPI
+
+Time elapsed: 8.486 secs
+[pg38923@compute-641-12 fase2]$ mpirun -np 1 -mca btl self,sm,tcp bucketMPI
+
+Time elapsed: 8.477 secs
+[pg38923@compute-641-12 fase2]$ mpirun -np 2 -mca btl self,sm,tcp bucketMPI
+
+Time elapsed: 4.724 secs
+[pg38923@compute-641-12 fase2]$ mpirun -np 2 -mca btl self,sm,tcp bucketMPI
+
+Time elapsed: 4.903 secs
+[pg38923@compute-641-12 fase2]$ mpirun -np 4 -mca btl self,sm,tcp bucketMPI
+
+Time elapsed: 2.934 secs
+[pg38923@compute-641-12 fase2]$ mpirun -np 4 -mca btl self,sm,tcp bucketMPI
+
+Time elapsed: 2.954 secs
+[pg38923@compute-641-12 fase2]$ mpirun -np 2 -mca btl self,sm,tcp bucketMPI
+
+Time elapsed: 4.887 secs
+[pg38923@compute-641-12 fase2]$ mpirun -np 8 -mca btl self,sm,tcp bucketMPI
+
+Time elapsed: 1.909 secs
+[pg38923@compute-641-12 fase2]$ mpirun -np 8 -mca btl self,sm,tcp bucketMPI
+
+Time elapsed: 1.895 secs
+[pg38923@compute-641-12 fase2]$ mpirun -np 10 -mca btl self,sm,tcp bucketMPI
+
+Time elapsed: 1.735 secs
+[pg38923@compute-641-12 fase2]$ mpirun -np 10 -mca btl self,sm,tcp bucketMPI
+
+Time elapsed: 1.710 secs
+[pg38923@compute-641-12 fase2]$ mpirun -np 12 -mca btl self,sm,tcp bucketMPI
+
+Time elapsed: 1.612 secs
+[pg38923@compute-641-12 fase2]$ mpirun -np 12 -mca btl self,sm,tcp bucketMPI
+
+Time elapsed: 1.624 secs
+[pg38923@compute-641-12 fase2]$ mpirun -np 16 -mca btl self,sm,tcp bucketMPI
+
+Time elapsed: 1.499 secs
+[pg38923@compute-641-12 fase2]$ mpirun -np 16 -mca btl self,sm,tcp bucketMPI
+
+Time elapsed: 1.495 secs
+[pg38923@compute-641-12 fase2]$ mpirun -np 20 -mca btl self,sm,tcp bucketMPI
+
+Time elapsed: 1.574 secs
+[pg38923@compute-641-12 fase2]$ mpirun -np 20 -mca btl self,sm,tcp bucketMPI
+
+Time elapsed: 1.586 secs
+[pg38923@compute-641-12 fase2]$ mpirun -np 32 -mca btl self,sm,tcp bucketMPI
+
+Time elapsed: 2.209 secs
+[pg38923@compute-641-12 fase2]$ mpirun -np 32 -mca btl self,sm,tcp bucketMPI
+
+Time elapsed: 1.927 secs
+[pg38923@compute-641-12 fase2]$ mpirun -np 32 -mca btl self,sm,tcp bucketMPI
+
+Time elapsed: 1.909 secs
+[pg38923@compute-641-12 fase2]$ mpirun -np 20 -mca btl self,sm,tcp bucketMPI
+
+Time elapsed: 1.482 secs
+[pg38923@compute-641-12 fase2]$ mpirun -np 20 -mca btl self,sm,tcp bucketMPI
+
+Time elapsed: 1.866 secs
+[pg38923@compute-641-12 fase2]$ mpirun -np 20 -mca btl self,sm,tcp bucketMPI
+
+Time elapsed: 1.906 secs
+[pg38923@compute-641-12 fase2]$

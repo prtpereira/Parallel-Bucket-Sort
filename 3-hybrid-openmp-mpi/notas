@@ -1,0 +1,42 @@
+
+qsub -I -lnodes=2:ppn=32:r641 -lwalltime=1:00:00
+
+qsub -I -lnodes=2:ppn=48:r662 -lwalltime=1:00:00
+
+qsub -I -lnodes=2:ppn=40:r652 -lwalltime=1:00:00
+
+
+
+usar 66 2 ou 64 1
+
+module load gcc/4.9.0 && module load gnu/openmpi_eth/1.8.4
+
+
+export PATH=/home/pg38923/programs/mpi/mpi-install/bin:$PATH
+
+
+
+mpicc -std=c99 -o bucketMPI bucket_sortMPI.c
+mpirun -np 16 -mca btl self,sm,tcp bucketMPI
+
+mpicc -std=c99 -o bucketHybrid bucket_sortHybrid.c
+mpirun -np 16 -mca btl self,sm,tcp bucketHybrid
+
+mpirun -np 16 --map-by core -report-bindings -mca btl self,sm,tcp bucketHybrid
+
+
+
+
+-----------------------------
+-- mpirun (Open MPI) 1.8.4 --
+-----------------------------
+
+-bycore     map and rank processes round-robin by core
+-bynode     map and rank processes round-robin by node
+-byslot     map and rank processes round-robin by slot
+
+-npernode <arg0> (alternativa ao -np)
+    Launch n processes per node on all allocated nodes
+
+-report-bindings
+    report process bindings
